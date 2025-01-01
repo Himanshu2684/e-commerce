@@ -1,5 +1,5 @@
 const UserModel = require("../modals/User");
-const bcrypt = require('bcrypt'); // Ensure bcrypt is imported
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 require('dotenv').config()
